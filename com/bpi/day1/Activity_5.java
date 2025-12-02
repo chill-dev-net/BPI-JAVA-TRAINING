@@ -11,5 +11,4 @@ public class Activity_5 {
 
 		System.out.println("Sum = " + result);
 	}
-
 }
