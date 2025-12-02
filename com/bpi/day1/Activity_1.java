@@ -11,6 +11,5 @@ public class Activity_1 {
 		String name = input.nextLine(); 
 		
 		System.out.println("Hello, " + name + "!");
-	}
-
+	}	
 }
