@@ -1,4 +1,4 @@
-package com.bpi.day4.M2.Exercise_1;
+package com.bpi.day4.M2_Exercise1;
 
 public class Exercise_1 {
 
