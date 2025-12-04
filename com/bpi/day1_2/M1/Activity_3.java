@@ -1,4 +1,4 @@
-package com.bpi.day1_2;
+package com.bpi.day1_2.M1;
 
 import java.util.Scanner;
 

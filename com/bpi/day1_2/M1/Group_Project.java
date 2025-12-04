@@ -1,16 +1,16 @@
-package com.bpi.day1_2;
+package com.bpi.day1_2.M1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Group_Project {
-	static Scanner input = new Scanner(System.in);
-	static char choice;
-	static boolean isMenu = true;
-	static String[] arr_stud_record = new String[5];
-	static ArrayList<Integer> arr_stud_grade = new ArrayList<>();
-	static double ave = 0;
-	static String status = "";
+	private static Scanner input = new Scanner(System.in);
+	private static char choice;
+	private static boolean isMenu = true;
+	private static String[] arr_stud_record = new String[5];
+	private static ArrayList<Integer> arr_stud_grade = new ArrayList<>();
+	private static double ave = 0;
+	private static String status = "";
 
 	public static void main(String[] args) {
 		while (isMenu) {
