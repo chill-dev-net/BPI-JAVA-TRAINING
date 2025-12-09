@@ -1,6 +1,6 @@
 package working_java_files;
 
-public class M2_Activity5 {
+public class M2_Activity6 {
 
 	public static void main(String[] args) {
 		Car car = new Car("Toyota");
