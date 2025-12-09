@@ -1,24 +1,25 @@
+package M2_Activity5;
 
+public class MSExcel extends Program {
 
-public class MSExcel {
-	
 	public MSExcel(String name) {
-		<fill>
+		this.setName(name);
 	}
-	
+
 	@Override
 	public void run() {
 		String message = "Opening MS Excel...";
-      <fill>
-		
+		this.setIsRunning(true);
+
 		System.out.println(message);
 	}
-	
+
 	@Override
 	public void stop() {
 		String message = "Stopping MS Excel...";
-      <fill>
-		
+		this.setIsRunning(false);
+
 		System.out.println(message);
 	}
+
 }
