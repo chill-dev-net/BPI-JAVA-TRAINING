@@ -1,4 +1,4 @@
-package M3_Activities;
+package m3_activities;
 
 import java.util.HashSet;
 import java.util.List;
@@ -17,19 +17,19 @@ public class M3_Activity2 {
 			main_menu();
 			switch (choice) {
 			case 1: {
-				search_product();
+				searchProduct();
 				break;
 			}
 			case 2: {
-				add_product();
+				addProduct();
 				break;
 			}
 			case 3: {
-				print_products();
+				printProducts();
 				break;
 			}
 			case 4: {
-				exit_program();
+				exitProgram();
 				break;
 			}
 			default:
@@ -48,7 +48,7 @@ public class M3_Activity2 {
 		choice = input.nextInt();
 	}
 
-	public static void search_product() {
+	public static void searchProduct() {
 		System.out.print("Enter product name to search: ");
 		String product = inputProduct.nextLine();
 		if (set.contains(product)) {
@@ -60,7 +60,7 @@ public class M3_Activity2 {
 
 	}
 
-	public static void add_product() {
+	public static void addProduct() {
 		System.out.print("Enter product name to add: ");
 		String product = inputProduct.nextLine();
 		set.add(product);
@@ -68,7 +68,7 @@ public class M3_Activity2 {
 		System.out.println();
 	}
 
-	public static void print_products() {
+	public static void printProducts() {
 		System.out.println("All products:");
 		for (String product : set) {
 			System.out.println(product);
@@ -77,7 +77,7 @@ public class M3_Activity2 {
 		System.out.println();
 	}
 
-	public static void exit_program() {
+	public static void exitProgram() {
 		isMenu = false;
 		System.out.println("Exiting...");
 		System.out.println();
