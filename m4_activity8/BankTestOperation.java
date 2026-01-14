@@ -1,4 +1,4 @@
-package m4_activity6;
+package m4_activity8;
 
 @FunctionalInterface
 public interface BankTestOperation {

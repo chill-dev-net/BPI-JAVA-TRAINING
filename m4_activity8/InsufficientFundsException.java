@@ -1,4 +1,4 @@
-package m4_activity6;
+package m4_activity8;
 
 public class InsufficientFundsException extends Exception {
 	private final double balance;
