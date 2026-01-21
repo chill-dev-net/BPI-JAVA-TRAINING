@@ -1,12 +1,10 @@
 package M5_Activity2;
 
-import java.sql.*;
-
-public class MainTest {
+public class MainApp {
 
 	public static void main(String[] args) throws Exception {
 
-		Connection con = DBConnection.getConnetion();
+		DBConnection.getConnetion();
 		System.out.println("Connected successfully");
 
 	}
