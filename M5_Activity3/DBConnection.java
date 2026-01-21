@@ -1,4 +1,4 @@
-package M5_Activity2;
+package M5_Activity3;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
