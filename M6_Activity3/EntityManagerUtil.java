@@ -1,4 +1,4 @@
-package M6_Activity2;
+package M6_Activity3;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
