@@ -1,4 +1,4 @@
-package M6_Activity3;
+package M6_Activity4;
 
 import jakarta.persistence.*;
 
