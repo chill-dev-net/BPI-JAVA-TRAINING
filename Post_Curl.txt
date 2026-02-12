@@ -1,0 +1,6 @@
+curl --location 'localhost:4568/profiles' \
+--header 'Content-Type: application/json' \
+--data '{
+    "name": "Lapu-Lapu",
+    "group": "Mactan"
+}'

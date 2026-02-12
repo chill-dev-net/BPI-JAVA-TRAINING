@@ -1,0 +1,7 @@
+curl --location --request PUT 'localhost:4568/profiles?name=Emilio%20Aguinaldo' \
+--header 'Content-Type: application/json' \
+--header 'Content-Type: application/json' \
+--data '{
+    "name": "Antonio Luna",
+    "group": "Illustrados"
+}'
