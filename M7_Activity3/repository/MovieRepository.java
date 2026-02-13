@@ -1,7 +1,8 @@
-package M7_Activity1;
+package M7_Activity3.repository;
 
 import java.util.List;
 
+import M7_Activity3.model.Movie;
 import jakarta.persistence.EntityManager;
 
 public class MovieRepository implements Repository<Movie, Long> {

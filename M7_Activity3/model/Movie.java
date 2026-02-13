@@ -1,4 +1,4 @@
-package M7_Activity1;
+package M7_Activity3.model;
 
 import jakarta.persistence.*;
 
