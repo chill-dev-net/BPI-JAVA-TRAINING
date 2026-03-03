@@ -1,4 +1,4 @@
-package M8_Activity5;
+package M8_Exercise6;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package M8_Activity5;
+package M8_Exercise6;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
